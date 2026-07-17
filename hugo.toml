@@ -1,7 +1,20 @@
 baseURL = "https://annouimo-blog.pages.dev"
 languageCode = "zh-CN"
 title = "Annouimo 的工程记录"
+theme = "hugo-PaperMod"
 defaultContentLanguage = "zh"
 
 [params]
   description = "Hermes Agent 辅助下的项目编年史"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    identifier = "chronicle"
+    name = "项目编年史"
+    url = "/编年史/"
+    weight = 1
