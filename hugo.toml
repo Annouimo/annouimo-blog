@@ -1,0 +1,7 @@
+baseURL = "https://annouimo-blog.pages.dev"
+languageCode = "zh-CN"
+title = "Annouimo 的工程记录"
+defaultContentLanguage = "zh"
+
+[params]
+  description = "Hermes Agent 辅助下的项目编年史"

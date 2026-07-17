@@ -1,3 +1,10 @@
+---
+title: "v2：Flutter 双端时代"
+date: 2026-07-17
+weight: 3
+draft: false
+---
+
 # v2：Flutter 双端时代 — zhangyuzhixue_app_v2
 
 > 编年史 · 第三篇 · 2026-07-03 ~ 2026-07-17
