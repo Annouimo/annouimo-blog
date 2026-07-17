@@ -6,3 +6,6 @@ resources/
 # OS
 Thumbs.db
 .DS_Store
+hugo.exe
+LICENSE
+README.md
