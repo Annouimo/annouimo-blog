@@ -6,12 +6,18 @@ defaultContentLanguage = "zh"
 buildDrafts = false
 
 [params]
-  description = "Hermes Agent 辅助下的项目编年史"
+  description = "用 AI Agent 做项目，顺便写写"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  mainSections = ["posts"]
+
+  [params.profileMode]
+    enabled = true
+    title = "Annouimo"
+    subtitle = "Hermes Agent 辅助下的项目编年史、偶尔写写技术相关"
 
 [menu]
   [[menu.main]]
@@ -19,3 +25,15 @@ buildDrafts = false
     name = "项目编年史"
     url = "/编年史/"
     weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
