@@ -3,7 +3,6 @@ title: "附录 A：Git 完整日志"
 date: 2026-07-17
 weight: 6
 draft: false
-ShowPostNavLinks: true
 ---
 
 > 编年史 · 附录 A · v1（130 commits）+ v2（893 commits）（AI生成）
