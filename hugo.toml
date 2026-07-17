@@ -1,6 +1,6 @@
 baseURL = "https://annouimo-blog.pages.dev"
 languageCode = "zh-CN"
-title = "Annouimo 的工程记录"
+title = "Annouimo 的个人博客"
 theme = "hugo-PaperMod"
 defaultContentLanguage = "zh"
 
@@ -15,6 +15,6 @@ defaultContentLanguage = "zh"
 [menu]
   [[menu.main]]
     identifier = "chronicle"
-    name = "项目编年史"
+    name = "章鱼智学项目编年史"
     url = "/编年史/"
     weight = 1
