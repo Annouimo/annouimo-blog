@@ -1,8 +1,9 @@
 baseURL = "https://annouimo-blog.pages.dev"
 languageCode = "zh-CN"
-title = "Annouimo 的个人博客"
+title = "Annouimo 的工程记录"
 theme = "hugo-PaperMod"
 defaultContentLanguage = "zh"
+buildDrafts = false
 
 [params]
   description = "Hermes Agent 辅助下的项目编年史"
@@ -15,6 +16,6 @@ defaultContentLanguage = "zh"
 [menu]
   [[menu.main]]
     identifier = "chronicle"
-    name = "章鱼智学项目编年史"
+    name = "项目编年史"
     url = "/编年史/"
     weight = 1
