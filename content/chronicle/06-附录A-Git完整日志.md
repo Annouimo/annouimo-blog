@@ -5,9 +5,7 @@ weight: 6
 draft: false
 ---
 
-# 附录 A：Git 完整日志
-
-> 编年史 · 附录 A · v1（130 commits）+ v2（893 commits）
+> 编年史 · 附录 A · v1（130 commits）+ v2（893 commits）（AI生成）
 
 ---
 
