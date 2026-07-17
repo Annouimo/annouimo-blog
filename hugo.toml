@@ -1,13 +1,13 @@
 baseURL = "https://annouimo-blog.pages.dev"
 languageCode = "zh-CN"
-title = "Annouimo 的工程记录"
+title = "Annouimo 的个人博客"
 theme = "hugo-PaperMod"
 defaultContentLanguage = "zh"
 buildDrafts = false
 
 [params]
-  description = "用 AI Agent 做项目，顺便写写"
-  ShowReadingTime = true
+  description = ""
+  ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -17,19 +17,20 @@ buildDrafts = false
   [params.profileMode]
     enabled = true
     title = "Annouimo"
-    subtitle = "Hermes Agent 辅助下的项目编年史、偶尔写写技术相关"
+    subtitle = ""
+    imageUrl = "images/avatar.jpg"
 
 [menu]
-  [[menu.main]]
-    identifier = "chronicle"
-    name = "项目编年史"
-    url = "/chronicle/"
-    weight = 1
-
   [[menu.main]]
     identifier = "posts"
     name = "文章"
     url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "chronicle"
+    name = "项目编年史"
+    url = "/chronicle/"
     weight = 2
 
   [[menu.main]]

@@ -1,0 +1,15 @@
+# 强制所有文本文件在提交到Git仓库时，自动转换为 LF
+* text=auto eol=lf
+
+# 针对Hugo核心文件类型，显式强制 LF
+*.md text eol=lf
+*.html text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# 针对Windows的批处理等特殊文件，如果你不需要，保持LF即可
+*.bat text eol=crlf
