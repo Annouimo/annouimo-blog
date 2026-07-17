@@ -23,7 +23,7 @@ buildDrafts = false
   [[menu.main]]
     identifier = "chronicle"
     name = "项目编年史"
-    url = "/编年史/"
+    url = "/chronicle/"
     weight = 1
 
   [[menu.main]]
