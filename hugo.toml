@@ -12,6 +12,7 @@ buildDrafts = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  math = true
   mainSections = ["posts"]
 
   [params.profileMode]
