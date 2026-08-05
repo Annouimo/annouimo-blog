@@ -13,7 +13,7 @@ buildDrafts = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   math = true
-  mainSections = ["blog", "notes"]
+  mainSections = ["blog", "notes", "tech"]
 
   [params.profileMode]
     enabled = true
@@ -38,7 +38,13 @@ buildDrafts = false
     weight = 2
 
   [[menu.main]]
+    identifier = "tech"
+    name = "技术"
+    url = "/tech/"
+    weight = 3
+
+  [[menu.main]]
     identifier = "archives"
     name = "归档"
     url = "/archives/"
-    weight = 3
+    weight = 4
