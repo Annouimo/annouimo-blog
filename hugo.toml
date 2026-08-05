@@ -13,7 +13,7 @@ buildDrafts = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   math = true
-  mainSections = ["posts"]
+  mainSections = ["blog", "notes"]
 
   [params.profileMode]
     enabled = true
@@ -26,15 +26,15 @@ buildDrafts = false
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "文章"
-    url = "/posts/"
+    identifier = "blog"
+    name = "随笔"
+    url = "/blog/"
     weight = 1
 
   [[menu.main]]
-    identifier = "chronicle"
-    name = "项目编年史"
-    url = "/chronicle/"
+    identifier = "notes"
+    name = "数理"
+    url = "/notes/"
     weight = 2
 
   [[menu.main]]
