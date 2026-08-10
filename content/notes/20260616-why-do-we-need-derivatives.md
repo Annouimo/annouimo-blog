@@ -180,10 +180,10 @@ $$
 
 解: 我们令 $f(x)=x^2$ , 则 $f^{\prime}(x)=2x$ . 令 $f^{\prime}(x)=0$ , 有 $x=0$ . 对 $f(x)$ 的变化情况列表如下:
 
-$$\begin{array}{c|lcr} 
-x & \left(-\infty,0\right) & 0 & \left(0,+\infty\right) \\ \hline 
-f^{\prime}(x) & - & 0 & + \\ 
-f(x) & \searrow & \text{极小} & \nearrow 
+$$\begin{array}{c|c|c|c}
+x & (-\infty,0) & 0 & (0,+\infty) \\ \hline
+f'(x) & - & 0 & + \\ \hline
+f(x) & \searrow & \text{极小} & \nearrow
 \end{array}$$
 
 由此可知: $f(x)$ 在 $(-\infty,0)$ 上单调递减, 在 $(0,+\infty)$ 上单调递增.
