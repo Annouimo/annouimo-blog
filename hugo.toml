@@ -1,4 +1,4 @@
-baseURL = "https://ali.annouimo.cn"
+baseURL = "http://123.57.85.160"
 languageCode = "zh-CN"
 title = "Annouimo 的个人博客"
 theme = "hugo-PaperMod"
