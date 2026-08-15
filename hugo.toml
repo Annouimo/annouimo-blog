@@ -5,7 +5,6 @@ theme = "hugo-PaperMod"
 defaultContentLanguage = "zh"
 buildDrafts = false
 
-
 [params]
   description = ""
   ShowReadingTime = false
