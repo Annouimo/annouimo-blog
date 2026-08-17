@@ -15,7 +15,7 @@ buildDrafts = false
   math = true
   mainSections = ["blog", "notes", "tech"]
 
-  footer.text = 'https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026052446号'
+  footer.text = '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026052446号</a>'
 
   [params.profileMode]
     enabled = true
