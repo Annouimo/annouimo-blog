@@ -1,4 +1,4 @@
-baseURL = "https://annouimo.cn"
+baseURL = "https://www.annouimo.cn"
 languageCode = "zh-CN"
 title = "Annouimo 的个人博客"
 theme = "hugo-PaperMod"
@@ -14,6 +14,8 @@ buildDrafts = false
   ShowCodeCopyButtons = true
   math = true
   mainSections = ["blog", "notes", "tech"]
+
+  footer.text = 'https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026052446号'
 
   [params.profileMode]
     enabled = true
