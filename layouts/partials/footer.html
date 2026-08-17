@@ -1,0 +1,32 @@
+{{- if not .Site.Params.footer.disable }}
+
+<footer class="footer">
+    <span>
+        &copy; {{ now.Format "2006" }}
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        ·
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026052446号</a>
+        ·
+        {{- $ft := .Site.Params.footer.text -}}
+        {{- if $ft }}{{ $ft | safeHTML }}{{ end -}}
+    </span>
+    <span>
+        {{- if .Site.Params.footer.poweredby -}}
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a>
+        &amp;
+        <a href="https://github.com/adityatelange/hugo-PaperMod" rel="noopener" target="_blank">PaperMod</a>
+        {{- end -}}
+    </span>
+</footer>
+
+{{- end }}
+
+{{- if (default true .Site.Params.footer.goToTop) -}}
+<a href="#top" id="top-link" class="top-link" aria-label="{{ i18n "goToTop" }}" title="{{ i18n "goToTop" }}" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"/>
+        <polyline points="17 18 12 13 7 18"/>
+    </svg>
+</a>
+{{- end -}}
