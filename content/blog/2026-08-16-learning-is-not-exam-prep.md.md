@@ -1,6 +1,6 @@
 ---
 title: 为“学习”正名：学习不是备考
-date: 2026-08-15
+date: 2026-08-16
 description:
 slug: learning-is-not-exam-prep
 tags:
