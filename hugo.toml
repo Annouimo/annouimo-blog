@@ -20,6 +20,13 @@ buildDrafts = false
     title = "Annouimo"
     subtitle = ""
     imageUrl = "images/avatar.jpg"
+    buttons = [
+          { name = "Apps", url = "https://app.annouimo.cn" },
+          { name = "Drive", url = "https://drive.annouimo.cn" },
+        ]
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:keen_wangyi@163.com"
 
   [params.assets]
     favicon = "favicons/favicon.ico"
