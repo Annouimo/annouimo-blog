@@ -1,24 +1,27 @@
 {{- if not .Site.Params.footer.disable }}
 
 <footer class="footer">
+    <!-- 第一行：版权 + Powered by -->
     <span>
         &copy; {{ now.Format "2006" }}
         <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
         ·
-        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026052446号</a>
-        ·
-        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11011202102218" rel="noreferrer" target="_blank">
-            <img src="/images/beian-icon.png" alt="公安备案图标" style="vertical-align:middle; margin-right:5px; height:14px;" />
-            京公网安备11011202102218号
-        </a>
-        {{- $ft := .Site.Params.footer.text -}}
-        {{- if $ft }} · {{ $ft | safeHTML }}{{ end -}}
-    </span>
-    <span>
         Powered by
         <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a>
         &amp;
         <a href="https://github.com/adityatelange/hugo-PaperMod" rel="noopener" target="_blank">PaperMod</a>
+        {{- $ft := .Site.Params.footer.text -}}
+        {{- if $ft }} · {{ $ft | safeHTML }}{{ end -}}
+    </span>
+    <br> <!-- 换行 -->
+    <!-- 第二行：备案号 -->
+    <span>
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026052446号</a>
+        ·
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11011202102218" rel="noreferrer" target="_blank" style="display: inline;">
+            <img src="/images/beian-icon.png" alt="公安备案图标" width="20" height="20" style="vertical-align: middle; margin-right: 4px;" />
+            京公网安备11011202102218号
+        </a>
     </span>
 </footer>
 
