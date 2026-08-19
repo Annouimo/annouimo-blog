@@ -7,8 +7,12 @@
         ·
         <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026052446号</a>
         ·
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11011202102218" rel="noreferrer" target="_blank">
+            <img src="/images/beian-icon.png" alt="公安备案图标" style="vertical-align:middle; margin-right:5px; height:14px;" />
+            京公网安备11011202102218号
+        </a>
         {{- $ft := .Site.Params.footer.text -}}
-        {{- if $ft }}{{ $ft | safeHTML }}{{ end -}}
+        {{- if $ft }} · {{ $ft | safeHTML }}{{ end -}}
     </span>
     <span>
         Powered by
