@@ -24,9 +24,16 @@ buildDrafts = false
           { name = "Apps", url = "https://app.annouimo.cn" },
           { name = "Drive", url = "https://drive.annouimo.cn" },
         ]
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Annouimo"
   [[params.socialIcons]]
     name = "email"
     url = "mailto:keen_wangyi@163.com"
+  [[params.socialIcons]]
+    name = "qq"
+    url = "https://qm.qq.com/q/OkBs4peUoM"
 
   [params.assets]
     favicon = "favicons/favicon.ico"
