@@ -24,8 +24,12 @@ buildDrafts = false
     buttons = [
           { name = "Apps", url = "https://app.annouimo.cn" },
           { name = "Drive", url = "https://drive.annouimo.cn" },
+          { name = "Reader", url = "https://rss.annouimo.cn" },
         ]
 
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/Annouimo"
