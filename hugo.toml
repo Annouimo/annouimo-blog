@@ -24,7 +24,7 @@ buildDrafts = false
     buttons = [
           { name = "Apps", url = "https://app.annouimo.cn" },
           { name = "Drive", url = "https://drive.annouimo.cn" },
-          { name = "Reader", url = "https://rss.annouimo.cn" },
+          { name = "Reader", url = "https://reader.annouimo.cn" },
           { name = "Statistics", url = "https://stats.annouimo.cn" },
           { name = "Panel", url = "https://panel.annouimo.cn" },
         ]
