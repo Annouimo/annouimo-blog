@@ -26,7 +26,7 @@ buildDrafts = false
           { name = "Drive", url = "https://drive.annouimo.cn" },
           { name = "Reader", url = "https://reader.annouimo.cn" },
           { name = "Statistics", url = "https://stats.annouimo.cn" },
-          { name = "Panel", url = "https://panel.annouimo.cn" },
+          { name = "Panel", url = "https://panel.annouimo.cn/ynmkhPXCp2/" },
         ]
 
   [[params.socialIcons]]
