@@ -23,10 +23,6 @@ buildDrafts = false
     imageUrl = "images/avatar.jpg"
     buttons = [
           { name = "Apps", url = "https://app.annouimo.cn" },
-          { name = "Drive", url = "https://drive.annouimo.cn" },
-          { name = "Reader", url = "https://reader.annouimo.cn" },
-          { name = "Statistics", url = "https://stats.annouimo.cn" },
-          { name = "Panel", url = "https://panel.annouimo.cn/ynmkhPXCp2/" },
         ]
 
   [[params.socialIcons]]
