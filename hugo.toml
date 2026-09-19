@@ -67,9 +67,9 @@ buildDrafts = false
     weight = 2
 
   [[menu.main]]
-    identifier = "reasarch"
+    identifier = "research"
     name = "研究"
-    url = "/reasarch/"
+    url = "/research/"
     weight = 3
 
   [[menu.main]]
