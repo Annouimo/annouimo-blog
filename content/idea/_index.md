@@ -1,4 +1,4 @@
 ---
-title: "数理"
+title: "观点"
 description: ""
 ---
