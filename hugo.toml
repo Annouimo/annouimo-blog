@@ -1,5 +1,5 @@
-baseURL = "https://www.annouimo.cn"
-languageCode = "zh-CN"
+baseURL = "https://www.annouimo.com"
+locale = "zh-CN"
 title = "Annouimo 的个人博客"
 theme = "hugo-PaperMod"
 defaultContentLanguage = "zh"
@@ -13,7 +13,7 @@ buildDrafts = false
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   math = true
-  mainSections = ["blog", "idea", "reasarch"]
+  mainSections = ["blog", "idea", "research"]
   ShowRssButtonInSectionTermList = true
 
   [params.profileMode]
@@ -21,9 +21,6 @@ buildDrafts = false
     title = "Annouimo"
     subtitle = ""
     imageUrl = "images/avatar.jpg"
-    buttons = [
-          { name = "Apps", url = "https://app.annouimo.cn" },
-        ]
 
   [[params.socialIcons]]
     name = "rss"
