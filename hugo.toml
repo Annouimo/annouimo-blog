@@ -6,71 +6,72 @@ defaultContentLanguage = "zh"
 buildDrafts = false
 
 [params]
-  description = ""
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  math = true
-  mainSections = ["blog", "idea", "research"]
-  ShowRssButtonInSectionTermList = true
+description = ""
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+math = true
+mainSections = ["blog", "idea", "research"]
+ShowRssButtonInSectionTermList = true
 
-  [params.profileMode]
-    enabled = true
-    title = "Annouimo"
-    subtitle = ""
-    imageUrl = "images/avatar.jpg"
+[params.profileMode]
+enabled = true
+title = "Annouimo"
+subtitle = ""
+imageUrl = "images/avatar.jpg"
 
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/Annouimo"
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:keen_qqmail@qq.com"
-  [[params.socialIcons]]
-    name = "qq"
-    url = "https://qm.qq.com/q/OkBs4peUoM"
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Annouimo"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:keen_qqmail@qq.com"
+[[params.socialIcons]]
+name = "qq"
+url = "https://qm.qq.com/q/OkBs4peUoM"
 
-  [params.assets]
-    favicon = "favicons/favicon.ico"
-    favicon16x16 = "favicons/favicon-16x16.png"
-    favicon32x32 = "favicons/favicon-32x32.png"
-    apple_touch_icon = "favicons/apple-touch-icon.png"
+[params.assets]
+favicon = "favicons/favicon.ico"
+favicon16x16 = "favicons/favicon-16x16.png"
+favicon32x32 = "favicons/favicon-32x32.png"
+apple_touch_icon = "favicons/apple-touch-icon.png"
 
 [[module.imports]]
-  path = "github.com/KKKZOZ/hugo-admonitions"
+path = "github.com/KKKZOZ/hugo-admonitions"
 
 [markup.goldmark.extensions.passthrough]
-  enable = true
-  [markup.goldmark.extensions.passthrough.delimiters]
-    block = [['\[', '\]'], ['$$', '$$']]
-    inline = [['\(', '\)'], ['$', '$']]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)'], ['$', '$']]
 
 [menu]
-  [[menu.main]]
-    identifier = "idea"
-    name = "观点"
-    url = "/idea/"
-    weight = 1
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "随笔"
-    url = "/blog/"
-    weight = 2
+[[menu.main]]
+identifier = "blog"
+name = "随笔"
+url = "/blog/"
+weight = 1
 
-  [[menu.main]]
-    identifier = "research"
-    name = "研究"
-    url = "/research/"
-    weight = 3
+[[menu.main]]
+identifier = "idea"
+name = "观点"
+url = "/idea/"
+weight = 2
 
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 4
+[[menu.main]]
+identifier = "research"
+name = "研究"
+url = "/research/"
+weight = 3
+
+[[menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 4
