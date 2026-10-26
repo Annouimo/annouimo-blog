@@ -9,12 +9,14 @@ buildDrafts = false
 description = ""
 ShowReadingTime = false
 ShowShareButtons = false
-ShowPostNavLinks = true
+ShowPostNavLinks = false
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 math = true
 mainSections = ["blog", "idea", "research"]
 ShowRssButtonInSectionTermList = true
+ShowToc = true
+TocOpen = true
 
 [params.profileMode]
 enabled = true
