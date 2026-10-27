@@ -73,6 +73,12 @@ url = "/research/"
 weight = 3
 
 [[menu.main]]
+identifier = "gallery"
+name = "陈列室"
+url = "https://gallery.annouimo.com/"
+weight = 3
+
+[[menu.main]]
 identifier = "archives"
 name = "归档"
 url = "/archives/"
