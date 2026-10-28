@@ -13,7 +13,7 @@ ShowPostNavLinks = false
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 math = true
-mainSections = ["blog", "idea", "research"]
+mainSections = ["blog", "idea", "research", "about"]
 ShowRssButtonInSectionTermList = true
 ShowToc = true
 TocOpen = true
@@ -73,13 +73,19 @@ url = "/research/"
 weight = 3
 
 [[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 4
+
+[[menu.main]]
 identifier = "gallery"
 name = "陈列室"
 url = "https://gallery.annouimo.com/"
-weight = 3
+weight = 5
 
 [[menu.main]]
 identifier = "archives"
 name = "归档"
 url = "/archives/"
-weight = 4
+weight = 6
