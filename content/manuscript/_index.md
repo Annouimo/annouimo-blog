@@ -1,4 +1,4 @@
 ---
-title: "观点"
+title: "手稿"
 description: ""
 ---

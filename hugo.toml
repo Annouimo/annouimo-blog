@@ -13,7 +13,7 @@ ShowPostNavLinks = false
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 math = true
-mainSections = ["blog", "idea", "research", "about"]
+mainSections = ["blog", "manuscript", "research", "about"]
 ShowRssButtonInSectionTermList = true
 ShowToc = true
 TocOpen = true
@@ -61,9 +61,9 @@ url = "/blog/"
 weight = 1
 
 [[menu.main]]
-identifier = "idea"
-name = "观点"
-url = "/idea/"
+identifier = "manuscript"
+name = "手稿"
+url = "/manuscript/"
 weight = 2
 
 [[menu.main]]
